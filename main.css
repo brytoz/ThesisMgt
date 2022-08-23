@@ -1,0 +1,399 @@
+*{
+	box-sizing:border-box;
+	color:white;
+    font-family: 'Rajdhani', sans-serif;
+}
+* a {
+	color:white;
+	text-decoration:none;
+}
+body{
+	box-sizing:border-box;
+	display:border-box;
+	margin: 0 !important;
+	color:white;
+	display:block;
+	background:url('images/banner.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	height:100%;
+	width:100%;
+}
+
+
+
+.oz-sticky-nav{
+	position: -webkit-sticky; /* Safari */
+	position:sticky;
+	top:0;
+	text-align:center;
+	border-bottom:1px solid white;
+	margin: 0 !important;
+	width:100%;
+	height:auto;
+	z-index:99;
+}
+
+.oz-sticky-nav a {
+	width:33.3333%;
+	padding:12px 0;
+	transition:all 0.3s ease;
+	float:left;
+	border-right:1px white;
+	color:white;
+}
+
+.oz-sticky-nav a:hover{
+	background-color:#0f0f1a;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	border-radius:3px;
+}
+
+.oz-sticky-nav .active {
+	background-color:#0f0f1a;
+	color:white;
+}
+
+
+/**** CONTENT ****/
+
+.oz-form {
+	background-color:rgba(72,72,72,0.4);
+	border-radius:2px;
+	width:60%;
+	margin-top:11%;
+	text-align:center;
+}
+
+
+.oz-form-container{
+	padding:20px;
+}
+
+#oz-form-header{
+		font-weight:600;
+		text-transform:uppercase;
+}
+img{
+	height:27px;
+	width:27px;
+}
+img:first-child{
+	margin-right:px;
+}
+img:last-child{
+	margin-left:19px;
+}
+.oz-header{
+	text-transform:uppercase;
+	font-weight:strong;
+	font-size:25px;
+	margin-top:1em;
+}
+
+/****    form   body  ****/
+
+.form-data{
+	margin-top:2em;
+}
+
+input[type="text"], input[type="password"] {
+	background:transparent;
+	width: 65%;
+	padding: 11px 50px 11px	 ;
+	border-radius:3px;
+	border:1px inset white;
+	margin:0.5em;
+}
+
+input[type="text"] {
+	background: url("images/mail.png") no-repeat 13px 11px;
+	background-size: 25px;
+}
+
+input[type="text"] {
+	background: url("images/mail.png") no-repeat 13px 11px;
+	background-size: 25px;
+}
+
+input[type="password"] {
+	background: url("images/password.png") no-repeat 13px 11px;
+	background-size: 25px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover{
+	border-right:1px solid green;
+	transition:all 0.3s ease;
+}
+img {
+	border-radius:10px;
+}
+.submit{
+	margin-top:2em;
+}
+
+button{
+	background-color:rgba(72,72,72,1);
+	margin-top:2.9em;
+	border:1px solid rgba(72,79,80,1);
+	text-transform:uppercase;
+	width:66%;
+	padding: 8px  11px;
+	text-align:center;
+	cursor:pointer;
+}
+
+button:hover{
+	border:none;
+	transition:all 0.8s ease;	
+	background-color:#0f0f1a;
+}
+
+.validated{
+	margin-bottom:1.8em;
+	display:block;
+}
+.validated > a:hover {
+	text-decoration:none;
+}
+.pass_recovery{
+	margin-bottom:1.8em;
+	display:none;
+}
+.home{
+	margin-bottom:1.8em;
+	display:none;
+}
+
+
+
+
+
+
+/****    footer  ****/
+.footer{
+	text-transform:capitalize;
+	text-align:center;
+	bottom:0;
+	margin-top:;
+	margin-bottom:0 !important;
+}
+.footer a:hover{
+	text-decoration:none;
+}
+
+
+
+/******************************		PROFILE DESIGN BEGINS HERE		****************************************/
+/***********************************************************************************************************/
+
+
+.oz-form-profile {
+	background-color:rgba(72,72,72,0.9);
+	border-radius:2px;
+	width:85%;
+	margin-top:1em;
+	text-align:center;
+	transition:all 0.01s ease;
+}
+
+/****    form   main body  ****/
+
+.oz-body-main{
+	margin-bottom:2em;
+}
+.oz-body{
+	color:white;
+	width:100%;
+	clear:both;
+	margin:0px auto;
+	background-color:green;
+	margin-bottom:2em;
+}
+
+.oz-body a:first-child{
+	border-bottom-left-radius:3px;
+	border-top-left-radius:3px;
+}
+.oz-body a:first-child:hover{
+	border-bottom-left-radius:3px;
+	border-top-left-radius:3px;
+}
+
+.oz-body a:last-child{
+	border-bottom-right-radius:3px;
+	border-top-right-radius:3px;
+}
+.oz-body a:last-child:hover{
+	border-bottom-right-radius:3px;
+	border-top-right-radius:3px;
+}
+
+.oz-body a{
+	width:33.333333%;
+	padding:12px 0;
+	transition:all 0.3s ease;
+	float:left;
+	color:white;
+	background-color:none;
+	margin-bottom:2em;
+	border-bottom:1px inset white;
+}
+
+.oz-body a:hover{
+	transition:all 0.8s ease;
+	background-color:#007bff; /*179b26 */
+	text-decoration:none;
+	color:black;
+}
+
+.oz-details{
+	margin-top:7em;
+	padding-bottom:4em;
+}
+
+
+.but{
+	width:7%;
+	height:1em;
+	background-color:green;
+	text-align:center;
+	cursor:pointer;
+	padding: 5px  8px;
+}
+
+
+
+
+
+/***********************************************************************************************************/
+/******************************		PROFILE DESIGN ENDS HERE		****************************************/
+
+
+
+
+
+
+/******************************		RESPONSIVE DESIGN STARTS HERE		****************************************/
+
+
+				/***** MEDIA QUERIES *****/
+@media only screen and (max-width: 1000px) {
+	input[type="text"], input[type="password"] {
+		width:75%;
+		font-size:14px;
+		padding: 11px 37px 11px;
+	}
+	
+	input[type="text"] {
+		background: url("images/mail.png") no-repeat 11px 13px;
+		background-size: 17px;
+	}
+
+	input[type="password"] {
+		background: url("images/password.png") no-repeat 11px 13px;
+		background-size: 17px;
+	}
+	button{	
+		width:75%;
+	}
+}
+
+@media only screen and (max-width: 900px){
+	.oz-sticky-nav a {
+		font-size:90%;
+		font-weight:600;
+	}
+	.oz-sticky-nav a:hover{
+		font-size:90%;
+	}
+	.oz-form {
+		width:70%;
+		margin-top:11%;
+	}
+	.oz-body a{
+		font-size:90%;
+		margin-left:0 !important;
+		margin-right:0 !important;
+	}
+	input[type="text"], input[type="password"] {
+		width:85%;
+		font-size:14px;
+		padding: 11px 37px 11px;
+	}
+	
+	input[type="text"] {
+		background: url("images/mail.png") no-repeat 11px 13px;
+		background-size: 17px;
+	}
+
+	input[type="password"] {
+		background: url("images/password.png") no-repeat 11px 13px;
+		background-size: 17px;
+	}	
+	button{	
+		width:85%;
+		transition:all 0.3s ease;
+	}
+	img{
+		transition:all 0.3s ease;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.oz-form {
+		margin-top:19%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 600px){
+	.oz-form {
+		margin-top:19%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 450px){
+	.oz-form {
+		margin-top:30%;
+	}
+	.oz-body a{
+		border-bottom:none;
+	}
+	
+	#oz-form-header{
+		font-size:12px;
+		font-weight:900;
+	}
+	
+	input[type="text"], input[type="password"] {
+		width:90%;
+		font-size:14px;
+		padding: 11px 37px 11px;
+		right:1em;
+	}
+	
+	input[type="text"] {
+		background: url("images/mail.png") no-repeat 11px 13px;
+		background-size: 17px;
+	}
+
+	input[type="password"] {
+		background: url("images/password.png") no-repeat 11px 13px;
+		background-size: 17px;
+	}
+	button{	
+		width:95%;
+	}
+	img{
+		width:18px;
+		height:18px;
+		transition:all 0.3s ease;
+	}
+}
